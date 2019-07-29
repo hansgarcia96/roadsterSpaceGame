@@ -63,9 +63,24 @@ class Roadster {
                 if (this.x < 1100) {
                     this.x += 30;
                 }
+                break;
         }
     }
 }; // end Roadster class
+
+
+
+
+
+
+
+
+
+
+
+
+// simplifeid version
+// check it out
 
 document.onkeydown = function (e) {
     let movement = e.keyCode;
